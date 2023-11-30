@@ -10,8 +10,8 @@ public class practiceTest2 {
 	public void Demo()
 	{
 	System.out.println("Selenium");
-	System.out.println("Selenium");
-	System.out.println("Selenium");
+	System.out.println("Selenium36473");
+	System.out.println("Ram");
 	}
 	
 	
