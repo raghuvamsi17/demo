@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Regression(failed)">
+    <groups>
+      <run>
+        <exclude name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="PracticeTestNg.practiceTest1">
+        <methods>
+          <include name="Second"/>
+          <include name="Demo"/>
+        </methods>
+      </class> <!-- PracticeTestNg.practiceTest1 -->
+      <class name="PracticeTestNg.practiceTestng">
+        <methods>
+          <include name="Demo"/>
+        </methods>
+      </class> <!-- PracticeTestNg.practiceTestng -->
+      <class name="PracticeTestNg.practiceTest2">
+        <methods>
+          <include name="Mobile"/>
+          <include name="Demo1"/>
+          <include name="Demo"/>
+        </methods>
+      </class> <!-- PracticeTestNg.practiceTest2 -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="PracticeTestNg.Listeners"/>
+</listeners>
+<parameter name="URL" value="google.co.in"/>
+<parameter name="API/Appium" value="epethilialtechservices.com"/>
+
+  <test thread-count="5" name="Test">
+  <packages>
+  <package name="PracticeTestNg"/>
+  </packages>        
+  </test> 
+</suite> <!-- Suite -->
